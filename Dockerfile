@@ -8,12 +8,12 @@ RUN apt-get update \
        libffi-dev \
        libpq-dev \
        libssl-dev \
-       python2 \
-       python2-dev \
-       python2-pip \
-       python2-setuptools \
-       python2-venv \
-       python2-wheel \
+       python \
+       python-dev \
+       python-pip \
+       python-setuptools \
+       python-venv \
+       python-wheel \
        python3 \
        python3-dev \
        python3-pip \
