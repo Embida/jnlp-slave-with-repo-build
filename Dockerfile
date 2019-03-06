@@ -2,7 +2,7 @@ FROM jenkins/jnlp-slave
 
 USER root
 
-ENV PYTHON_VERSION 3.6
+ENV PYTHON_VERSION 3
 
 RUN apt-get update \
     && apt-get dist-upgrade -y \
